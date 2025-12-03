@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>도전하는 자는 아름답다!</title>
+    <meta charset="utf-8">
+<!--
+    <link rel="stylesheet" href="style.css">
+-->
+    <style>
+        body{
+            margin: 0;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        h1{
+        font-size: 50px;
+        text-align: center;
+        border: 10px solid gray;
+        margin: 0;
+        padding: 20px;
+        }
+        ol{
+            margin: 0;
+            border-right: 10px solid gray;
+            border-bottom: 10px solid gray;
+            width: 100px;
+            margin: 0;
+            padding: 30px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #grid ol{
+            padding-left: 33px;
+        }
+        #grid #article{
+            padding-left: 40px;
+        }
+        @media(max-width:600px){
+            #grid{
+                display: block;
+            }
+            h1{
+                border: none;
+            }
+            ol{
+                border: none;
+            }
+        }
+        </style>
+</head>
+<body>
+    <h1><a href="index.html">BodyBuilding</a></h1>
+    <div id="grid">
+    <ol>
+        <li><a href="Nickwalker.html">NickWalker</a></li>
+        <li><a href="Jaycutler.html">Jay Cutler</a></li>
+        <li><a href="C_bum.html">Chris Bumstead</a></li>
+    </ol>
+        <div id="article">
+            <h2>BODYBUILDING</h2>
+            <p>
+                Bodybuilding is the practice of progressive resistance exercise to build, control, and develop one's muscles via hypertrophy.[1] An individual who engages in this activity is referred to as a bodybuilder. It is primarily undertaken for aesthetic purposes over functional ones, distinguishing it from similar activities such as powerlifting and calisthenics.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
